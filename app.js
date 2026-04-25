@@ -4,6 +4,22 @@ const CATEGORIES_KEY = 'learningCategories';
 const SUBCATEGORIES_KEY = 'learningSubCategories';
 
 const TYPE_ICONS = { video: '🎬', article: '📄', course: '📚', other: '🔗' };
+const SEED_LOADED_KEY = 'seedDataLoaded';
+
+async function loadSeedDataIfNeeded() {
+  if (localStorage.getItem(SEED_LOADED_KEY)) return;
+  try {
+    const res = await fetch('data.json');
+    const data = await res.json();
+    if (data.topics && getTopics().length === 0) saveTopics(data.topics);
+    if (data.categories && getCategories().length === 0) saveCategories(data.categories);
+    if (data.subCategories && getSubCategories().length === 0) saveSubCategories(data.subCategories);
+    if (data.links && getLinks().length === 0) saveLinks(data.links);
+    localStorage.setItem(SEED_LOADED_KEY, 'true');
+  } catch (e) {
+    console.warn('Could not load seed data:', e);
+  }
+}
 
 function getLinks() {
   return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]');
@@ -157,4 +173,7 @@ function initBrowsePage() {
   typeFilter.addEventListener('change', render);
 }
 
-document.addEventListener('DOMContentLoaded', initBrowsePage);
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadSeedDataIfNeeded();
+  initBrowsePage();
+});

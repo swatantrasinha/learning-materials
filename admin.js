@@ -249,4 +249,7 @@ function initAdminPage() {
   renderAdminLinks();
 }
 
-document.addEventListener('DOMContentLoaded', initAdminPage);
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadSeedDataIfNeeded();
+  initAdminPage();
+});

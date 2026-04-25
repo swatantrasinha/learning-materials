@@ -1,0 +1,168 @@
+{
+  "links": [
+    {
+      "title": "Complete Python Learning RoadMap",
+      "url": "https://www.youtube.com/watch?v=XV-lIaO00H8",
+      "description": "",
+      "topic": "Python",
+      "category": "AI_Info",
+      "subCategory": "Apna College",
+      "type": "video",
+      "id": "1777133278898",
+      "createdAt": "2026-04-25T16:07:58.898Z"
+    },
+    {
+      "title": "AI Complete OneShot Course",
+      "url": "https://www.youtube.com/watch?v=D1eL1EnxXXQ&t=29s",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Info",
+      "subCategory": "Apna College",
+      "type": "video",
+      "id": "1777133213412",
+      "createdAt": "2026-04-25T16:06:53.412Z"
+    },
+    {
+      "title": "Data Analyst vs Data Scientist vs AI Engineer | Difference Explained",
+      "url": "https://www.youtube.com/watch?v=ajtCfEstvvw",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Info",
+      "subCategory": "Apna College",
+      "type": "video",
+      "id": "1777133184580",
+      "createdAt": "2026-04-25T16:06:24.580Z"
+    },
+    {
+      "title": "The Complete Data Science RoadMap 2026",
+      "url": "https://www.youtube.com/watch?v=sWhqqiJuypA",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Info",
+      "subCategory": "Apna College",
+      "type": "video",
+      "id": "1777133095500",
+      "createdAt": "2026-04-25T16:04:55.500Z"
+    },
+    {
+      "title": "How to start AI/ML in 2026 ?",
+      "url": "https://www.youtube.com/watch?v=8WzSEikpHk8&t=149s",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Info",
+      "subCategory": "Apna College",
+      "type": "video",
+      "id": "1777133015637",
+      "createdAt": "2026-04-25T16:03:35.637Z"
+    },
+    {
+      "title": "AI Engineering & Data Science",
+      "url": "https://www.youtube.com/watch?v=qvUxG2a8QHs",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Info",
+      "subCategory": "Apna College",
+      "type": "video",
+      "id": "1777132919529",
+      "createdAt": "2026-04-25T16:01:59.529Z"
+    },
+    {
+      "title": "MCP Servers - Next Big Thing in AI",
+      "url": "https://www.youtube.com/watch?v=vYelTr1uQmA",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Models_LLM",
+      "subCategory": "Piyush Garg",
+      "type": "video",
+      "id": "1777132836946",
+      "createdAt": "2026-04-25T16:00:36.946Z"
+    },
+    {
+      "title": "What are MCP servers",
+      "url": "https://www.youtube.com/watch?v=dZyQNy3-HjU",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "AI_Models_LLM",
+      "subCategory": "Chai Aur Code",
+      "type": "video",
+      "id": "1777132792462",
+      "createdAt": "2026-04-25T15:59:52.462Z"
+    },
+    {
+      "title": "What is DNS?",
+      "url": "https://www.youtube.com/watch?v=pfd68UI5KzU",
+      "description": "",
+      "topic": "Frontend_Basics",
+      "category": "Website Working",
+      "subCategory": "Telusko",
+      "type": "video",
+      "id": "1777132664542",
+      "createdAt": "2026-04-25T15:57:44.542Z"
+    },
+    {
+      "title": "Prompt engineering course | ChatGPT Prompts",
+      "url": "https://www.youtube.com/watch?v=5i2Hn8OG94o&t=3s",
+      "description": "",
+      "topic": "Artificial Intelligence",
+      "category": "Prompt Engineering",
+      "subCategory": "Great Learning",
+      "type": "video",
+      "id": "1777132562271",
+      "createdAt": "2026-04-25T15:56:02.271Z"
+    },
+    {
+      "title": "Singleton pattern in javascript",
+      "url": "https://www.youtube.com/watch?v=CmH8JEtuKx8",
+      "description": "",
+      "topic": "Javascript",
+      "category": "System Design",
+      "subCategory": "Chai Aur Code - Uncomfy JS",
+      "type": "video",
+      "id": "1777132447770",
+      "createdAt": "2026-04-25T15:54:07.771Z"
+    },
+    {
+      "title": "Adapter Pattern in Javascript",
+      "url": "https://www.youtube.com/watch?v=dyVtcNOga_E",
+      "description": "",
+      "topic": "Javascript",
+      "category": "System Design",
+      "subCategory": "Chai Aur Code - Uncomfy JS",
+      "type": "video",
+      "id": "1777132429258",
+      "createdAt": "2026-04-25T15:53:49.258Z"
+    },
+    {
+      "title": "JavaScript Module Pattern & Dependency Injection Tutorial",
+      "url": "https://www.youtube.com/watch?v=yQhRom9GFXg",
+      "description": "",
+      "topic": "Javascript",
+      "category": "System Design",
+      "subCategory": "Chai Aur Code - Uncomfy JS",
+      "type": "video",
+      "id": "1777132408300",
+      "createdAt": "2026-04-25T15:53:28.300Z"
+    }
+  ],
+  "topics": [
+    "Artificial Intelligence",
+    "Frontend_Basics",
+    "Javascript",
+    "Python"
+  ],
+  "categories": [
+    "AI_Info",
+    "AI_Models_LLM",
+    "Prompt Engineering",
+    "System Design",
+    "Website Working"
+  ],
+  "subCategories": [
+    "Apna College",
+    "Chai Aur Code",
+    "Chai Aur Code - Uncomfy JS",
+    "Great Learning",
+    "Piyush Garg",
+    "Telusko"
+  ]
+}
