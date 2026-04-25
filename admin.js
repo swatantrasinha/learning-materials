@@ -250,6 +250,6 @@ function initAdminPage() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadSeedDataIfNeeded();
+  await syncFromRepo();
   initAdminPage();
 });
