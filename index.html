@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Materials 🎓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="nav-link active">🏠 Browse</a>
+    <a href="admin.html" class="nav-link">⚙️ Admin</a>
+  </nav>
+
+  <div class="container">
+    <h1>🎓 Learning Materials</h1>
+    <p class="subtitle">Curated links for videos &amp; articles on coding &amp; tech</p>
+
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="🔍 Search by title..." />
+      <select id="topic-filter">
+        <option value="">All Topics</option>
+      </select>
+      <select id="category-filter">
+        <option value="">All Categories</option>
+      </select>
+      <select id="subcategory-filter">
+        <option value="">All Sub Categories</option>
+      </select>
+      <select id="type-filter">
+        <option value="">All Types</option>
+        <option value="video">🎬 Video</option>
+        <option value="article">📄 Article</option>
+        <option value="course">📚 Course</option>
+        <option value="other">🔗 Other</option>
+      </select>
+    </div>
+
+    <div id="links-container"></div>
+    <p id="empty-msg" class="empty-msg hidden">No links found. Add some from the <a href="admin.html">Admin</a> page!</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

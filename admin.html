@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin - Learning Materials 🎓</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html" class="nav-link">🏠 Browse</a>
+    <a href="admin.html" class="nav-link active">⚙️ Admin</a>
+  </nav>
+
+  <div class="container">
+    <h1>⚙️ Admin</h1>
+    <p class="subtitle">Manage your learning links &amp; categories</p>
+
+    <!-- Add Topic -->
+    <div class="card">
+      <h2>Add Topic</h2>
+      <div class="form-row">
+        <input type="text" id="new-topic" placeholder="e.g. Javascript, React, Node JS, Python ..." />
+        <button class="btn btn-primary" id="add-topic-btn">Add</button>
+      </div>
+      <div class="tags" id="topic-tags"></div>
+    </div>
+
+    <!-- Add Category -->
+    <div class="card">
+      <h2>Add Category</h2>
+      <div class="form-row">
+        <input type="text" id="new-category" placeholder="e.g. Basics, System Design, Machine Coding etc ..." />
+        <button class="btn btn-primary" id="add-category-btn">Add</button>
+      </div>
+      <div class="tags" id="category-tags"></div>
+    </div>
+
+    <!-- Add Sub Category -->
+    <div class="card">
+      <h2>Add Sub Category</h2>
+      <div class="form-row">
+        <input type="text" id="new-subcategory" placeholder="e.g. can mention about youtube channel like Chai aur code ..." />
+        <button class="btn btn-primary" id="add-subcategory-btn">Add</button>
+      </div>
+      <div class="tags" id="subcategory-tags"></div>
+    </div>
+
+    <!-- Add/Edit Link -->
+    <div class="card">
+      <h2 id="form-title">Add Link</h2>
+      <form id="link-form">
+        <input type="hidden" id="edit-id" />
+        <input type="text" id="link-title" placeholder="Title" required />
+        <input type="url" id="link-url" placeholder="https://..." required />
+        <textarea id="link-desc" placeholder="Short description (optional)" rows="2"></textarea>
+        <div class="form-row">
+          <select id="link-topic" required>
+            <option value="">Select Topic</option>
+          </select>
+          <select id="link-category" required>
+            <option value="">Select Category</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <select id="link-subcategory">
+            <option value="">Select Sub Category (optional)</option>
+          </select>
+          <select id="link-type" required>
+            <option value="">Type</option>
+            <option value="video">🎬 Video</option>
+            <option value="article">📄 Article</option>
+            <option value="course">📚 Course</option>
+            <option value="other">🔗 Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <button type="submit" class="btn btn-primary" id="save-btn">Add Link</button>
+          <button type="button" class="btn btn-secondary hidden" id="cancel-btn">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Existing Links -->
+    <div class="card">
+      <h2>All Links</h2>
+      <div id="admin-links"></div>
+      <p id="admin-empty" class="empty-msg hidden">No links yet.</p>
+    </div>
+
+    <!-- Import/Export -->
+    <div class="card">
+      <h2>Import / Export</h2>
+      <p class="subtitle">Backup or restore your data as JSON</p>
+      <div class="form-row">
+        <button class="btn btn-secondary" id="export-btn">📥 Export</button>
+        <label class="btn btn-secondary" for="import-file">📤 Import</label>
+        <input type="file" id="import-file" accept=".json" class="hidden" />
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
